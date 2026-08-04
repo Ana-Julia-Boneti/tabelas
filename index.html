@@ -5,6 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabelas</title>
+    <style>
+        thead{
+            background-color: rgb(255, 158, 206);
+        }
+        .Produto{
+            width: 350px;
+        }
+        img{
+            width: 40%;
+        }
+    </style>
 </head>
 
 <body>
@@ -53,7 +64,7 @@
     </table>
 
     <h2>Agenda</h2>
-    <table>
+    <table border="1px">
           <header>
             <thead>
                 <th>Nome</th>
@@ -65,7 +76,7 @@
             <tbody>
                 <tr>
                     <td>Ana</td>
-                    <td>R$ 43 3333-3333</td>
+                    <td>43 3333-3333</td>
                     <td>ana.jesus@gmail.com</td>
                     <td>Rua primeiro de Maio, n 65- Maringá</td>
                 <tr>
@@ -112,6 +123,45 @@
                         <td>SQS 305 Bloco G, s/n, Asa Sul, Brasília - DF</td>
                     </tr>
             </tbody>
+        </header>
+    </table>
+
+    <h2>pacotes de viagens saindo de Manoel Ribas</h2>
+    <table border="1px">
+        <header>
+            <thead>
+            <tbody>
+                <tr>
+                    <th class="Produto">Nome</th>
+                    <th>imagem</th>
+                    <th>preço</th>
+                </tr>
+                <tr>
+                    <td>******amazonas******</td>
+                    <td>
+                        <img src="ama.webp" alt="">
+                        <img src="zo.jpeg" alt="">
+                    </td>
+                    <td>✈️ Ida e volta: normalmente entre R$ 950 e R$ 1.900</td>
+                </tr>
+                <tr>
+                    <td>******Copacabana******</td>
+                    <td>
+                        <img src="aa.jpeg" alt="">
+                        <img src="copa.webp" alt="">
+                    </td>
+                    <td>✈️ Passagem aérea (ida e volta): entre R$ 500 e R$ 1.200</td>
+                </tr>
+                <tr>
+                    <td>******bahia******</td>
+                    <td> 
+                        <img src="ba.jpeg" alt="">
+                         <img src="bahia.webp" alt="">
+                    </td>
+                    <td>✈️ Passagem aérea (ida e volta): R$ 700 a R$ 1.800.</td>
+                </tr>
+            </tbody>
+            </thead>
         </header>
     </table>
 </body>
